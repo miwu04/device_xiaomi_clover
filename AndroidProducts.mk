@@ -23,9 +23,9 @@
 
 # inherit MI PAD 4 device config
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_clover.mk
+    $(LOCAL_DIR)/superior_clover.mk
 
 COMMON_LUNCH_CHOICES := \
-		aosp_clover-eng \
-		aosp_clover-userdebug \
-		aosp_clover-user
+		superior_clover-eng \
+		superior_clover-userdebug \
+		superior_clover-user

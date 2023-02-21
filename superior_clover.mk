@@ -25,10 +25,10 @@
 $(call inherit-product, device/xiaomi/clover/device.mk)
 
 # Inherit some common aosp stuff
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/superior/config/common.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aosp_clover
+PRODUCT_NAME := superior_clover
 PRODUCT_DEVICE := clover
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi PAD 4
